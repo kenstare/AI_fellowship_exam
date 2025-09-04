@@ -2,7 +2,7 @@
 num1 = float(input("Enter first number: "))
 operator =  input("Enter operation (+, -, *, /): ")
 num2 = float(input("Enter second number: "))
-# print("Choose operation (+, -, *, /) or 'exit' to quit: /")
+
 def calculator(num1, num2):
     if operator == "+":
       result = num1 + num2
